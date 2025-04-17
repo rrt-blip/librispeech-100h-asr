@@ -1,0 +1,5 @@
+This file is modified from Icefall (https://github.com/k2-fsa/icefall/tree/[COMMIT_HASH]/egs/librispeech/ASR/local/compute_fbank_librispeech.py)
+Modifications made by [Your Name] on Thu Apr 17 23:12:09 CEST 2025:
+- Disabled torch parallelism
+- Adapted for 100h subset
+
