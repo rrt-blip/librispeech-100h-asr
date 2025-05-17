@@ -7,7 +7,7 @@ This project demonstrates training an **Automatic Speech Recognition (ASR)** sys
 - Total: ~100 hours of clean, read English speech
 - Sample rate: 16 kHz, mono
 
-## ⚙ Setup and Environment
+##  Setup and Environment
 
 - Framework: [Icefall](https://github.com/k2-fsa/icefall)
 - Libraries: PyTorch, K2, Lhotse, torchaudio
