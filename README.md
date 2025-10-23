@@ -1,4 +1,4 @@
-#  LibriSpeech 100h ASR Training with K2/Icefall
+#  LibriSpeech 100h ASR Training with k2/icefall
 This project demonstrates training an **Automatic Speech Recognition (ASR)** system using the **LibriSpeech 100-hour subset**, implemented with the [k2](https://github.com/k2-fsa/k2) and [icefall](https://github.com/k2-fsa/icefall) frameworks.
 
 ##  Dataset
