@@ -1,5 +1,5 @@
 #  LibriSpeech 100h ASR Training with K2/Icefall
-This project demonstrates training an **Automatic Speech Recognition (ASR)** system using the **LibriSpeech 100-hour subset**, implemented with the [K2](https://github.com/k2-fsa/k2) and [Icefall](https://github.com/k2-fsa/icefall) frameworks.
+This project demonstrates training an **Automatic Speech Recognition (ASR)** system using the **LibriSpeech 100-hour subset**, implemented with the [k2](https://github.com/k2-fsa/k2) and [icefall](https://github.com/k2-fsa/icefall) frameworks.
 
 ##  Dataset
 
@@ -12,23 +12,12 @@ This project demonstrates training an **Automatic Speech Recognition (ASR)** sys
 - Framework: [Icefall](https://github.com/k2-fsa/icefall)
 - Libraries: PyTorch, K2, Lhotse, torchaudio
 - Python: 3.8+
-- CUDA (for GPU training)
 
 ##  Data Preparation
 
-I used the official **K2 LibriSpeech recipe** located in:
+I used the official **k2 LibriSpeech recipe** located in:
 icefall/egs/librispeech/ASR
 To prepare the dataset:
 
 
-```bash
-cd icefall/egs/librispeech/ASR
-./prepare.sh  --stage 0 --stop-stage 0```
-Then I completed the rest of the stages sequentially to fully prepare the data.
 
-This handles:
- Downloading train-clean-100
- Creating manifests using Lhotse
- Preparing lexicon and language models
- Generating features (e.g., fbank)
- Constructing FSAs for training
